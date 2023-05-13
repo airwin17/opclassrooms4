@@ -21,19 +21,48 @@
 	<meta property="og:image" content="./assets/images/nina.png" />
 	<meta property="og:site_name" content="nina-carducci.github.io" />
 	<!--**************************************************************************-->
-	<!--<script src="./assets/bootstrap/bootstrap.bundle.js"></script>-->
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "LocalBusiness",
+			"address": {
+				"@type": "PostalAddress",
+				"addressLocality": "Bordeaux",
+				"postalCode": "33200",
+				"streetAddress": "68 avenue Alsace-Lorraine"
+			},
+			"image": "https://nina-carducci.github.io/assets/images/nina.png",
+			"description": "Nina Carducci, photographe à proximité de Bordeaux. Mes services sont disponibles via la section dédiée sur le site.",
+			"name": "Nina Carducci - Photographe Bordeaux",
+			"telephone": "05 56 67 78 89",
+			"url": "https://nina-carducci.github.io",
+			"openingHoursSpecification": [
+			  {
+			    "@type": "OpeningHoursSpecification",
+			    "dayOfWeek": [
+			      "Monday",
+			      "Tuesday",
+			      "Wednesday",
+			      "Thursday",
+			      "Friday"
+			    ],
+			    "opens": "10:00",
+			    "closes": "19:00"
+			  },
+			  {
+			    "@type": "OpeningHoursSpecification",
+			    "dayOfWeek": [
+			      "Saturday",
+			      "Sunday"
+			    ],
+			    "opens": "00:00",
+			    "closes": "00:00"
+			  }
+			]
+		}
+	</script>
 </head>
 <body>
-	<div itemscope itemtype="https://schema.org/Person" style="display: none;">
-		<span itemprop="name">Nina Carducci</span>
-		<div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-		  <span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>,
-		  <span itemprop="postalCode">33200</span>
-		  <span itemprop="addressLocality">Bordeaux</span>
-		</div>
-		<span itemprop="telephone">05 56 67 78 89</span>
-		<meta itemprop="workHours" content="Mo-Fr 10:00-19:00"/>
-	</div>
 <div class="top-header">
 	<h1 class="name">Nina Carducci</h1>
 	<menu class="nav">
